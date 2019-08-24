@@ -1,0 +1,28 @@
+AREA OF SQUARE 
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a,b,area;
+	printf("enter the value of side of a square\n");
+	scanf("%f %f",&a,&b);
+    area=a*a;
+    printf("area of a square is %f",area);
+
+}
+
+
+
+
+AREA OF RECTANGLE
+ #include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a,b,area;
+	printf("enter the value of length and breadth of a rectangle\n");
+	scanf("%f %f",&a,&b);
+    area=a*b;
+    printf("area of a rectangle is %f",area);
+
+}
