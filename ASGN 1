@@ -1,0 +1,80 @@
+AREA OF SQUARE 
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a,b,area;
+	printf("enter the value of side of a square\n");
+	scanf("%f %f",&a,&b);
+    area=a*a;
+    printf("area of a square is %f",area);
+
+}
+INPUT:
+8
+OUTPUT:
+enter the value of side of a square
+area of a square is 64.000000
+
+
+
+
+AREA OF RECTANGLE
+ #include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a,b,area;
+	printf("enter the value of length and breadth of a rectangle\n");
+	scanf("%f %f",&a,&b);
+    area=a*b;
+    printf("area of a rectangle is %f",area);
+
+}
+INPUT: 
+5 ,4
+OUTPUT:
+enter the value of length and breadth of a rectangle
+area of a rectangle is 20.000000
+
+
+
+CIRCUMFERANCE OF A CIRCLE
+ #include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a, circumferance;
+	printf("enter the value of radius of circle\n");
+	scanf("%f ",&a);
+    circumferance=2*3.142*a;
+    printf("area of a  circumferance of a circle is %f", circumferance);
+
+}
+INPUT:
+5
+OUTPUT:
+enter the value of radius of circle
+area of a  circumferance of a circle is 31.420000
+
+
+
+AREA OF TRIANGLE
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a,b,area;
+	printf("enter the value of side of a TRIANGLE\n");
+	scanf("%f %f",&a,&b);
+    area=.5*a*b;
+    printf("area of a TRIANGLE is %f",area);
+
+}
+
+INPUT:
+5 ,3.5
+
+OUTPUT:
+enter the value of side of a TRIANGLE
+area of a triangle is 8.750000
